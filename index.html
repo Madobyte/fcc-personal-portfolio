@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Personal Portfolio</title>
+  <meta name="description" content="Insert Description Here">
+  <meta name="author" content="Insert Author Here">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="stylesheet" href="app.css">
+
+  <!-- FONTS -->
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script><!-- FONT AWESOME -->
+
+</head>
+
+<body>
+    <header>
+        <div class="main-div">
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+            <img src="https://lh3.googleusercontent.com/pw/ACtC-3cSKOvAIScjX7gJ-w-wRD5WxHZuL_Y9hJBZSWffgOQnlLGE-_tbfar4r8ok9_u8ZQSb0SfE2YAPX81ly47dGmy-RW6u4Pb4T9J6St5dJkXtfteI4NQoVNsVUiYnTBszxif3HaJgizuhC7GMHSyyV9gn=s969-no?authuser=0" alt="Mado logo">
+            <p id="title">MADO</p>
+            <nav id="navbar">
+                <ul onclick="showMenu()">
+                    <li><a class="nav-link" href="#welcome-section">Home</a></li>
+                    <li><a class="nav-link" href="#projects">Work</a></li>
+                    <li><a class="nav-link" href="#contact_me">Contact me</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    
+    <section id="welcome-section" class="anchor text-dark">
+            <div id="welcome-content" class="main-div">
+                <h1>Hey, kamusta? I am Marc B.</h1>
+                <p>civil engineer, front-end developer, writer</p>
+            </div>
+    </section>
+
+    <section id="projects" class="anchor">
+        <h2>My Work!</h2>
+        <div id="projects-div" class="main-div">
+            <a href="https://codepen.io/madobyte/full/QWjXzOo" target="_blank">
+                <div class="project-tile" >
+                    <img src="https://lh3.googleusercontent.com/pw/ACtC-3doO6CaKM53wgdwUX-yHB-5ztZE8yihO9pu2UivkOwqFDujz3qte11tfKMEhXtdYuDTspTUj_xZo62-Jqg1bZMOZEF6RKHgM60Gkigc_4ylgb4HHgJqSdejFDy0oYmYwnqBN0feHA-U-iMiOnZm5aGE=s969-no?authuser=0" alt="Dr. Jose Rizal Tribute Page">
+                    <h3 class="project-desc text-light">Dr. Jose Rizal Tribute Page</h3>
+                </div>
+            </a>
+            <a href="https://codepen.io/madobyte/full/KKVPVob" target="_blank">
+                <div class="project-tile">
+                    <img src="https://lh3.googleusercontent.com/pw/ACtC-3eqdbdWs16enWbZMS66TIMann_NqXZLIEEApnEbapZTduDq1s5XQqla-hsMgjiBDWpGWnhLFCA9TaDJpDwN2hHMpRnC58ITiCUGROagb7dLfCXlN82Oktay931Zq_V8pjTx4UEGiZVJPGuL9j8iBeyW=s969-no?authuser=0" alt="iPhone User Guide">
+                    <h3 class="project-desc text-light">iPhone User Guide </h3>
+                </div>
+            </a>
+            <a href="https://codepen.io/madobyte/full/yLYmZKJ" target="_blank">
+                <div class="project-tile">
+                    <img src="https://lh3.googleusercontent.com/pw/ACtC-3fKGltmzpc6-WJK9SfM5fdYV2jteDSiOy4KtLonEJ_D8kZoLNGMWp3GbadRdojh7soySkDhCS-X4Gfso5nkFvyoprW8XxAt52z-LZI9NVBLfnXLK6hPKi5rFxMwAr6Xdx6WPYyXautKGUCAeM63rTEr=s969-no?authuser=0" alt="iPhone SE (2nd Gen)">
+                    <h3 class="project-desc text-light">iPhone SE (2nd Gen) Landing Page</h3>
+                </div>
+            </a>
+            <a href="https://codepen.io/madobyte/full/XWmLvMJ" target="_blank">
+                <div class="project-tile">
+                    <img src="https://lh3.googleusercontent.com/pw/ACtC-3fV7ZvI5ZPiRMFUjiDL5tT8evxWHXE4e8_KDm_9ESOJ3bXGc3abVNGN6fjClCxKSMXUAAV-zS3lmtjcdMOo1xnqneZ6nibDYZZteBYISoLLNxbUAlCxc6wbKQLinfWNdJJK2C_suUNXCOGmbmuFmgDC=s969-no?authuser=0" alt="Survey Page">
+                    <h3 class="project-desc text-light">Survey Page</h3>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <section id="contact_me" class="anchor text-light">
+        <h2>About Me</h2>
+        <div class="main-div">
+            <img src="https://lh3.googleusercontent.com/pw/ACtC-3fqP2FaQP-UswJcXDr4vU3Z3vtxaJmYMW1ejNk1HHgnLcPXZUorXtDgR7B1uhflQT0XmlawNsaHQ1dB8na-DXJNnBk4HTHiVLFG_3jTW_MIAorsOH4QJ2qjfJP25OOD7tMCzcCz0aHhdtZ6rIldSKoL=s969-no?authuser=0" alt="Profile Image">
+            <p>Marc B.</p>
+            <p>(aka MADO)</p>
+            <p>Civil Engineer | Front-end Developer | Writer</p>
+            <p>Pasig, PH</p>
+            <h2>Keep in touch!</h2>
+            <a class="text-light" id="profile-link" href="https://github.com/Madobyte" target="_blank"><i class="fab fa-github">Github</i></a>
+            <a class="text-light" href="https://www.freecodecamp.org/madobyte" target="_blank"><i class="fab fa-free-code-camp">freeCodeCamp</i></a>
+        </div>
+        
+    </section>
+    
+
+    <script>
+        function showMenu(){
+            var x = document.getElementById("navbar");
+            if (x.style.display === "none" && window.matchMedia("(max-width: 800px)").matches){
+                x.style.display = "block";
+            } else if (x.style.display === "block" && window.matchMedia("(max-width: 800px)").matches) {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
+
+</body>
+</html>
